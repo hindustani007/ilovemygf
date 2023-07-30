@@ -11,7 +11,7 @@ const Home = () => {
       </div>
       <div className="confBox">
         <h2>You are the love of my life and hence there are many things I would like to confess to you.</h2>
-        <h3>Let us preceed.</h3>
+        <h3>Let us proceed.</h3>
         <h3>Click on the button below :)</h3>
         <Link to={'/confessions'} className='clickMe'>Click Me :)</Link>
       </div>
