@@ -1,0 +1,47 @@
+.homepage {
+    background-color: black;
+    color: white;
+    height: 100vh;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.homeTop {
+    display: flex;
+    gap: 25px;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 50px;
+    background-image: linear-gradient(45deg, #4942E4, #FF0060);
+    height: max-content;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.confBox {
+    width: 90vw;
+    margin-top: 50px;
+    margin-inline: auto;
+    background-color: #F11A7B;
+    border-radius: 10px;
+    padding: 10px 15px;
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+}
+
+.clickMe{
+    background-color: black;
+    padding: 10px 15px;
+    width: max-content;
+    border-radius: 8px;
+}
+
+.clickMe:hover{
+    background-color: white;
+    border: 1px solid white;
+    color: black;
+}

@@ -1,0 +1,59 @@
+.confessions {
+    background-color: black;
+    color: white;
+    height: 100vh;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.confTop>h2{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.btns {
+    display: flex;
+    gap: 15px;
+}
+
+.nextBtn {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    width: max-content;
+    border-radius: 8px;
+}
+
+.nextBtn:hover {
+    background-color: white;
+    border: 1px solid white;
+    color: black;
+}
+
+.nextBtn:disabled {
+    background-color: gray;
+    cursor: not-allowed;
+}
+
+.prevBtn {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    width: max-content;
+    border-radius: 8px;
+}
+
+.prevBtn:hover {
+    background-color: white;
+    border: 1px solid white;
+    color: black;
+}
+
+.prevBtn:disabled {
+    background-color: gray;
+    cursor: not-allowed;
+}
