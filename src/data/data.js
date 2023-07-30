@@ -41,6 +41,6 @@ export const data = [
     },
     {
     stage: "Ends",
-    conf: "With this my connfessions end here. If you want to read them again then just reload the page :)"
+    conf: "With this my connfessions end here. If you want to read them again then just click back button :)"
     },
 ]
